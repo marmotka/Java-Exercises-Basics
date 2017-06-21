@@ -13,6 +13,7 @@ public class TaskExtra01PowerWithSumOnly {
 			if (l == 1) {
 				return k;
 			}
+				// int pow =  k pow(l-1) * k;
 			return multiply(power(k, l - 1), k);
 		}
 
@@ -20,6 +21,7 @@ public class TaskExtra01PowerWithSumOnly {
 			if (y == 1) {
 				return x;
 			}
+			// int mul = x*(y-1) + x;
 			return multiply(x, y - 1) + x;
 		}
 	
