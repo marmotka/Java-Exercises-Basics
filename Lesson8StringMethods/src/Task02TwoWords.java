@@ -14,7 +14,7 @@ public class Task02TwoWords {
 		String[] words = text.split(" ", 2);
 		words = replace5symbols(words);
 		System.out.println(words[0].length() > words[1].length() ? (words[0].length() + " " + words[0].toString())
-																 : (words[1].length() + " " + words[1].toString()));
+									 : (words[1].length() + " " + words[1].toString()));
 		System.out.println(Arrays.toString(words));
 	}
 
