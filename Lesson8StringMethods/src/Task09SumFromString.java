@@ -18,6 +18,7 @@ public class Task09SumFromString {
 						break;
 					}
 					digitToInt = Character.getNumericValue(text.charAt(i));
+//					System.out.println(digitToInt);
 					num += tens * digitToInt;
 					tens *= 10;
 					i--;

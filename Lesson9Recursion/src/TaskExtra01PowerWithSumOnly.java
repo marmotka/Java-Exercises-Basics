@@ -1,10 +1,9 @@
 
 public class TaskExtra01PowerWithSumOnly {
 
-
 		public static void main(String[] args) {
-			int x = 7;
-			int y = 2;
+			int x = 3;
+			int y = 4;
 
 			System.out.println(power(x, y));
 		}
@@ -13,7 +12,7 @@ public class TaskExtra01PowerWithSumOnly {
 			if (l == 1) {
 				return k;
 			}
-				// int pow =  k pow(l-1) * k;
+			// int pow =  k pow(l-1) * k;
 			return multiply(power(k, l - 1), k);
 		}
 
